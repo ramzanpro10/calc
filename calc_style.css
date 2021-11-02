@@ -2,6 +2,7 @@ body {
     background-color: #F5F5F5;
     font-size: 18px;
     color: red;
+    font-family: "Roboto", sans-serif;
 }
 
 .calculator {
@@ -30,6 +31,11 @@ body {
     background-color: #000000;
     color: #f0f8ff;
     border: 2px solid #2d3134;
+    cursor: pointer;
+}
+
+.calculator_button:hover {
+    opacity: 0.9;
 }
 
 .calculator_button_long {
@@ -44,4 +50,18 @@ body {
 .calculator_button_orage {
     background-color: #fdee00;
     border: 2px solid #2d3134;
+}
+
+.calculator_panel {
+    height: 100px;
+    text-align: right;
+    padding: 20px;
+    position: relative;
+}
+
+.calculator_resalt {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 34px;
 }
